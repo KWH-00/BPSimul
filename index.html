@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Backpack Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-layout">
+
+    <div class="left-panel">
+
+        <h2>인벤토리</h2>
+
+        <div id="inventory"></div>
+
+        <div id="equipment">
+
+            <button>무기</button>
+            <button>방어구</button>
+            <button>반지</button>
+            <button>펫</button>
+
+        </div>
+
+    </div>
+
+    <div class="right-panel">
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="아이템 검색..."
+        >
+
+        <div class="tabs">
+
+            <button data-tab="common">공용</button>
+            <button data-tab="wizard">위자드</button>
+            <button data-tab="warrior">워리어</button>
+            <button data-tab="ranger">레인저</button>
+
+        </div>
+
+        <div id="shop"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
