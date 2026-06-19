@@ -159,7 +159,7 @@ const ITEMS = {
 
     Energybolt:{
         class:"wizard",
-        image:"Energybolt.png",
+        image:"assets/wizard/Energybolt.png",
         width:2,
         height:1,
         pivotX:0,
@@ -168,7 +168,7 @@ const ITEMS = {
 
     OldBranch:{
         class:"wizard",
-        image:"OldBranch.png",
+        image:"assets/wizard/OldBranch.png",
         width:1,
         height:2,
         pivotX:0,
@@ -177,7 +177,7 @@ const ITEMS = {
 
     MagicStaff:{
         class:"wizard",
-        image:"MagicStaff.png",
+        image:"assets/wizard/MagicStaff.png",
         width:1,
         height:3,
         pivotX:0,
@@ -324,10 +324,6 @@ document
                 ? "flex"
                 : "none";
         });
-    }
-);
-
-loadShop("wizard");     });
     }
 );
 
